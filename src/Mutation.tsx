@@ -163,7 +163,7 @@ class Mutation<TData = any, TVariables = OperationVariables> extends React.Compo
       client: this.client,
     };
 
-    return children(this.runMutation, result);
+    return children(this.runMutation as any, result);
   }
 
   private runMutation = (options: MutationOptions<TData, TVariables> = {}) => {

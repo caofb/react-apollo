@@ -2,7 +2,7 @@
   "name": "nerv-apollo",
   "version": "2.3.1",
   "author": "caofb65@gmail.com",
-  "browser": "lib/react-apollo.browser.umd.js",
+  "browser": "lib/nerv-apollo.browser.umd.js",
   "description": "Nerv data container for Apollo Client",
   "keywords": [
     "apollo",
@@ -10,7 +10,7 @@
     "nerv"
   ],
   "license": "MIT",
-  "main": "lib/react-apollo.umd.js",
+  "main": "lib/nerv-apollo.umd.js",
   "module": "src/index.ts",
   "typings": "lib/index.d.ts",
   "repository": {

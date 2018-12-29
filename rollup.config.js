@@ -16,11 +16,17 @@ export default [
   {
     input: 'lib/browser.js',
     output: {
-      file: 'lib/react-apollo.browser.umd.js',
+      file: 'lib/nerv-apollo.browser.umd.js',
       format: 'umd',
-      name: 'react-apollo',
+      name: 'nerv-apollo',
       sourcemap: true,
       exports: 'named',
+    },
+    alias:{
+      "react": "nervjs",
+      "react-dom": "nervjs",
+      // 除非你想使用 `createClass`，否则这一条配置是没有必要的
+      "create-react-class": "nerv-create-class"
     },
     onwarn,
   },
@@ -28,11 +34,17 @@ export default [
   {
     input: 'lib/index.js',
     output: {
-      file: 'lib/react-apollo.umd.js',
+      file: 'lib/nerv-apollo.umd.js',
       format: 'umd',
-      name: 'react-apollo',
+      name: 'nerv-apollo',
       sourcemap: false,
       exports: 'named',
+    },
+    alias:{
+      "react": "nervjs",
+      "react-dom": "nervjs",
+      // 除非你想使用 `createClass`，否则这一条配置是没有必要的
+      "create-react-class": "nerv-create-class"
     },
     onwarn,
   },
