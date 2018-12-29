@@ -1,13 +1,13 @@
 {
-  "name": "react-apollo",
+  "name": "nerv-apollo",
   "version": "2.3.1",
-  "author": "opensource@apollographql.com",
+  "author": "caofb65@gmail.com",
   "browser": "lib/react-apollo.browser.umd.js",
-  "description": "React data container for Apollo Client",
+  "description": "Nerv data container for Apollo Client",
   "keywords": [
     "apollo",
     "graphql",
-    "react"
+    "nerv"
   ],
   "license": "MIT",
   "main": "lib/react-apollo.umd.js",
@@ -122,6 +122,8 @@
     "jsdom": "12.2.0",
     "lodash.includes": "4.3.0",
     "lodash.times": "4.3.2",
+    "nerv-server": "^1.3.7",
+    "nervjs": "^1.3.9",
     "preact": "8.3.1",
     "preact-compat": "3.18.4",
     "prettier": "1.15.2",

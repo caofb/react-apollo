@@ -14,7 +14,8 @@
     "sourceMap": true,
     "strict": true,
     "target": "es5",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "noImplicitAny": false
   },
   "include": ["./typings/**/*", "./src/**/*", "./test/**/*"],
   "exclude": ["./node_modules", "./dist", "./lib"]
